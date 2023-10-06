@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Bài Tập 7 </title>
+    </head>
+    <body>
+        <center>
+                <h1>File Upload to Database<br>(multipart/form-data)</h1>
+            <form action="f2" method="post" enctype="multipart/form-data">
+                <div >
+                    <label for="username">First Name:</label>
+                    <input type="text" id="firstname" name="firstname">
+                </div>
+                <br>
+                <div >
+                    <label for="lastname">Last Name:</label>
+                    <input type="text" id="lastname" name="lastname">
+                </div>
+                <br>
+                <div >
+                    <label for="file">Portrait Photo:</label>
+                    <input type="file" name="image" id="image" accept="image/png, image/jpeg">
+                </div>
+                <br>
+                    <input type="submit" value="Save">
+            </form>
+        </center>
+    </body>
+</html>
